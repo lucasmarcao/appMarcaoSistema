@@ -9,16 +9,14 @@ segundo prompt:
 Em PHP, me mostre como posso criar não uma tabela, mas sim um DATABASE,
 e depois criar a table desse database
 
-# caminho url -> ALEATORIO
+<br>
 
-/home/vol8_5/infinityfree.com/if0_38565346/htdocs/src/criarBD.php
+<img width="100%" src="https://raw.githubusercontent.com/lucasmarcao/appMarcaoSistemaPHP/refs/heads/main/media/imgs/imgAppPHP.png">
 
 
-<div style="display:flex; justify-content:center; align-itens: center;">
-  <div>
-#### Como ficou a estrutura da table clientes
-  </div>
-</div>
+<h4>
+Como ficou a estrutura da table clientes
+</h4>
 <br>
 
 
@@ -35,3 +33,7 @@ e depois criar a table desse database
 
 <br>
 <hr>
+
+# caminho url -> ALEATORIO
+
+/home/vol8_5/infinityfree.com/if0_38565346/htdocs/src/criarBD.php
