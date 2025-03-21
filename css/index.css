@@ -1,0 +1,128 @@
+body {
+    position: relative;
+    font-family: system-ui, sans-serif;
+    background: #55423d;
+    color: #fffffe;
+}
+
+/* FUNDOS {
+    #55423d ;
+    #ffc0ad ;
+    #e78fb3 ;
+} */
+/* LETRAS {
+    #fffffe ;
+    #fff3ec ;
+    #271c19 ;
+} */
+
+nav {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 20px;
+    background: #ffc0ad !important;
+    color: #271c19 !important;
+    border-bottom: #271c19 solid 2px;
+}
+
+.nav-link {
+    background: #fff3ec;
+    border: #271c19 2px solid;
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 8px 20px !important;
+}
+
+.nav-link:hover {
+    transition: 0.8s;
+    color: #fff3ec !important;
+    background: #55423d;
+    border: #fff3ec 2px solid;
+    border-radius: 0;
+}
+
+/* AUXILIARES */
+.centroTudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margemFacil {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.textoPad {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* AUXILIARES */
+
+.apresentado {
+    padding-left: 3px;
+    padding-right: 3px;
+    border: #424242 dotted 2px;
+    background-color: #271c19;
+    color: #fffffe;
+    box-shadow: 10px 5px 5px #000000;
+    text-align: center;
+    width: 90%;
+}
+
+.caixonaMarcao {
+    border: 2px solid #424242;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffc0ad;
+}
+
+.itemMarcao {
+    text-align: center;
+    padding: 12px 2px;
+    margin: 10px 0;
+    border: 2px solid #424242;
+    background-color: #e78fb3;
+    color: #fff3ec;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dentroPhp {
+    width: 90%;
+    text-align: center;
+}
+
+/* parte footer  */
+
+.footerMarcao {
+    /* position: sticky; pra sem php */
+    /* position: absolute; */
+    border-top: 2px solid #fffffe;
+    background-color: #271c19;
+    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+}
+/* parte footer  */
+
+/* RESPONSIVO */
+@media (max-width: 990px) {
+    /* nav */
+    .nav-link {
+        text-align: center;
+        background: #fff3ec;
+        border: #271c19 1px solid;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 12px 20px !important;
+    }
+    /* { 
+    bora bill
+    } */
+}
